@@ -1,7 +1,6 @@
 # Membership Inference Attacks against Variational Autoencoders
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/security-research-vae-dp-mia)](https://api.reuse.software/info/github.com/SAP-samples/security-research-vae-dp-mia)
+
 
 ## Description
 This repository contains framework functions to create differentially private VAE models for image and location data. Furthermore it features logic for membership inference attacks against Variational Autoencoders [1,2].
