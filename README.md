@@ -6,7 +6,7 @@
 ## Description
 This repository contains framework functions to create differentially private VAE models for image and location data. Furthermore it features logic for membership inference attacks against Variational Autoencoders [1,2].
 
-## Requirements (minimum version numbers)
+## Requirements (lowest tested version numbers)
 
 - python 3.8
 - numpy 1.19
@@ -96,7 +96,8 @@ This project is provided "as-is" and any bug reports are not guaranteed to be fi
 
 ## References
 [1] Benjamin Hilprecht, Martin Härterich, and Daniel Bernau: Monte Carlo and Reconstruction Membership Inference Attacks against Generative Models. Proceedings on Privacy Enhancing Technologies; 2019 (4):232–249 https://petsymposium.org/2019/files/papers/issue4/popets-2019-0067.pdf
-[] Benjamin Hilprecht, Martin Härterich, and Daniel Bernau: https://github.com/SAP-samples/security-research-membership-inference-against-generative-networks
+
+[2] Benjamin Hilprecht, Martin Härterich, and Daniel Bernau: https://github.com/SAP-samples/security-research-membership-inference-against-generative-networks
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
