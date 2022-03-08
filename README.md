@@ -6,21 +6,21 @@
 ## Description
 This repository contains framework functions to create differentially private VAE models for image and location data. Furthermore it features logic for membership inference attacks against Variational Autoencoders [1,2].
 
-## Requirements
+## Requirements (minimum version numbers)
 
-python 3.8
-numpy 1.19
-tensorflow 2.4
-tensorflow-privacy 0.5
-tensorflow-probability 0.11
-pillow 8.3.2
-opencv-python-headless 4.4
-pandas 1.1
-scikit-learn 0.23
-scikit-optimize 0.8
-scikit-image 0.17
-tqdm 4.50
-imageio 2.15
+- python 3.8
+- numpy 1.19
+- tensorflow 2.4
+- tensorflow-privacy 0.5
+- tensorflow-probability 0.11
+- pillow 8.3.2
+- opencv-python-headless 4.4
+- pandas 1.1
+- scikit-learn 0.23
+- scikit-optimize 0.8
+- scikit-image 0.17
+- tqdm 4.50
+- imageio 2.15
 
 ## Download and Installation
 
