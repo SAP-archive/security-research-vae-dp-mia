@@ -84,9 +84,9 @@ attacker.perform_attack()
 ```
 
 ## Authors / Contributors
-Jonas Robl
-Daniel Bernau
-Martin Härterich
+- Jonas Robl
+- Daniel Bernau
+- Martin Härterich
 
 ## Known Issues
 There are no known issues.
