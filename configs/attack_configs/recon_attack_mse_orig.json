@@ -1,0 +1,6 @@
+{
+    "attack_type": "reconstruction_attack",
+    "ensure_orig_data": true,
+    "repetitions": 300,
+    "metric": "mse"
+}

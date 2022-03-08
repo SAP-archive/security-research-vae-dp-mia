@@ -1,0 +1,21 @@
+{
+    "type": "MultitaskSensorDataVAE",
+    "epochs": 100,
+    "batch_size": 32,
+    "dim_z": 2,
+    "lstm_size": 164,
+    "data_dir": "data",
+    "dataset": "MotionSenseConditional",
+    "shuffle_data": true,
+    "stratify_split": true,
+    "force_new_data_indices": false,
+    "train_size": 0.1,
+    "val_size": 0.1,
+    "optimizer": "Adam",
+    "optimizer_params": {
+        "learning_rate": 0.001
+    },
+    "checkpoint_model": 10,
+    "epoch_modulo": 10,
+    "log_gradients": false
+}

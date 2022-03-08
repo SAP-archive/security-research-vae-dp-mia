@@ -1,0 +1,20 @@
+{
+    "type": "GAN",
+    "epochs": "number of training epochs",
+    "batch_size": "number of samples for one training step",
+    "dim_z": "Length of random generator input",
+    "data_dir": "Path to save data to",
+    "dataset": "Identifier for dataset used for training",
+    "shuffle_data": "Boolean that specifies if data should be shuffled after loading",
+    "train_size": "Percentage of data that should be used for training",
+    "val_size": "Percentage of data that is left for validation",
+    "?use_classes": "List of all classes that should be used for model training. When property not defined or None, all classes are used",
+    "?epsilon": "Epsilon Value for Pixelization, if needed",
+    "?m": "Neighborhood for Pixelization. Required if epsilon is set for pixelization",
+    "?b": "Size of grid cells. Defaults to 1.",
+    "?train": "Whether LDP should be applied to train set. Defaults to True",
+    "?test": "Whether LDP should be applied to test set. Defaults to False",
+    "?val": "Whether LDP should be applied to validation set. Defaults to False",
+    "optimizer_params": "dict of parameters which get passed directly to the optimizer. Depend on chosen optimizer",
+    "optimizer": "name of the optimizer to use"
+}

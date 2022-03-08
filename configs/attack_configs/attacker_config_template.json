@@ -1,0 +1,12 @@
+{
+    "attack_type": "One of [wb_attack, pca_mc_attack, pca_mc_category_attack, hog_mc_attack, hog_mc_category_attack, chist_mc_attack, chist_mc_category_attack, reconstruction_attack, taxonomy_attack]",
+    "?ensure_orig_data": "Ensures that attack does not use any LDP data.",
+    "?n_components_pca": "Amount of components samples should be reduced to by PCA",
+    "?heuristics": "List of heuristics used for evaluating MC attack, e.g., ['median', '1', '0.1', '0.01']",
+    "?sample_size": "Amount of samples to generate during each step (MC Attacks only)",
+    "?repetitions": "Number of repetitions of the attack (MC and reconstruction attack)",
+    "?metric": "Error/Similarity metric that is used when evaluating the reconstructions. One of [mse, ssim]",
+    "?lambda1": "Enable/disable and balance the order of magnitude of each loss (Taxonomy attack)",
+    "?lambda2": "Enable/disable and balance the order of magnitude of each loss (Taxonomy attack)",
+    "?lambda3": "Enable/disable and balance the order of magnitude of each loss (Taxonomy attack)"
+}

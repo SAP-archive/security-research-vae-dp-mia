@@ -1,0 +1,21 @@
+{
+    "type": "ConditionalPlainPictureVAE",
+    "epochs": 1000,
+    "batch_size": 16,
+    "dim_z": 100,
+    "data_dir": "data",
+    "dataset": "lfw",
+    "shuffle_data": true,
+    "stratify_split": true,
+    "force_new_data_indices": false,
+    "train_size": 0.5,
+    "val_size": 0.2,
+    "optimizer": "Adam",
+    "optimizer_params": {
+        "learning_rate": 0.0001
+    },
+    "checkpoint_model": 50,
+    "epoch_modulo": 50,
+    "early_stopping": false,
+    "log_gradients": false
+}

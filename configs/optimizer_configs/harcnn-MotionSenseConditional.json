@@ -1,0 +1,6 @@
+{
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 25,
+    "val_accuracy": 0.98
+}

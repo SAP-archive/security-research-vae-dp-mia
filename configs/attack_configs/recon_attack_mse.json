@@ -1,0 +1,5 @@
+{
+    "attack_type": "reconstruction_attack",
+    "repetitions": 300,
+    "metric": "mse"
+}

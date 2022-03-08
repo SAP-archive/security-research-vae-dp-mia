@@ -1,0 +1,7 @@
+{
+    "attack_type": "taxonomy_attack",
+    "lambda1": 1,
+    "lambda2": 1,
+    "lambda3": 1,
+    "repetitions": 4
+}
